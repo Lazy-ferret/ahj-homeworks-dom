@@ -17,3 +17,8 @@ function changePosition() {
 }
 
 setInterval(changePosition, 1000);
+
+// for demonstration purpose only;
+export default function demo(value) {
+  return value;
+}
