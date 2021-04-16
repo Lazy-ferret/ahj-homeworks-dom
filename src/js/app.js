@@ -1,5 +1,5 @@
 const goblinImg = document.createElement('img');
-goblinImg.src = '../img/goblin.png';
+goblinImg.src = './img/goblin.png';
 goblinImg.classList.add('goblin-img');
 
 const holes = document.querySelectorAll('.hole');
