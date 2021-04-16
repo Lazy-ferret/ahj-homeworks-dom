@@ -9,10 +9,11 @@ module.exports = merge(common, {
     minimize: true,
     minimizer: [
       new OptimizeCSSAssetsPlugin({}),
-      '...',
+      new TerserPlugin({}),
     ],
   },
   output: {
     publicPath: '/ahj-homeworks-dom',
+    assetModuleFilename: 'img/[name][ext]'
   },
 });
