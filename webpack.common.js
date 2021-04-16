@@ -6,7 +6,7 @@ module.exports = {
   target: 'web',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/',
+    publicPath: '/ahj-homeworks-dom',
     assetModuleFilename: 'img/[name][ext]'
   },
   module: {

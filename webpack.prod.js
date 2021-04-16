@@ -12,8 +12,4 @@ module.exports = merge(common, {
       new TerserPlugin({}),
     ],
   },
-  output: {
-    publicPath: '/ahj-homeworks-dom',
-    assetModuleFilename: 'img/[name][ext]'
-  },
 });
